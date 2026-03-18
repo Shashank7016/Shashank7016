@@ -74,7 +74,23 @@ Currently exploring WebGPU, shaders, and whatever new thing dropped in frontend 
 
 ---
 
-### 3D Contribution Graph
+### Isometric Contributions
+
+<p align="center">
+  <img src="./dist/isometric.svg" width="100%" />
+</p>
+
+---
+
+### Coding Habits
+
+<p align="center">
+  <img src="./dist/habits.svg" width="100%" />
+</p>
+
+---
+
+### 3D Contribution Skyline
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
