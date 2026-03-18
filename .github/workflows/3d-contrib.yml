@@ -1,4 +1,4 @@
-name: Generate Animations
+name: Generate 3D Contribution Graph
 
 on:
   schedule:
@@ -11,46 +11,13 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Generate contribution visuals
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y jq
-
-      # 3D contribution skyline
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: Shashank7016
-
-      # Isometric contribution calendar
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.GH_PAT }}
-          filename: dist/isometric.svg
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          config_display: large
-          config_output: svg
-          config_animations: yes
-
-      # Coding habits
-      - uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.GH_PAT }}
-          filename: dist/habits.svg
-          base: ""
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 30
-          plugin_habits_from: 200
-          config_output: svg
 
       - name: Commit & Push
         run: |
@@ -59,5 +26,5 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
           git pull --rebase
           git add -A
-          git diff --staged --quiet || git commit -m "Update profile animations"
+          git diff --staged --quiet || git commit -m "Update 3D contribution graph"
           git push
