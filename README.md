@@ -10,7 +10,11 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=520&lines=Building+interactive+web+experiences;3D+graphics+on+the+web+with+Three.js;Turning+ideas+into+pixels+and+polygons" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&random=false&width=550&lines=Frontend+Dev+who+thinks+in+3D;If+it+renders%2C+I+can+make+it+interactive;Pixels%2C+polygons+%26+a+lot+of+caffeine;Making+the+web+weird+in+the+best+way" />
+</p>
+
+<p align="center">
+  <em>I build things that move, spin, and respond to you — not just sit there looking pretty.</em>
 </p>
 
 ---
