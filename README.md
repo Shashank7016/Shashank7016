@@ -61,14 +61,6 @@ Currently exploring WebGPU, shaders, and whatever new thing dropped in frontend 
 
 ---
 
-### Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shashank7016&theme=algolia&no-frame=true&no-bg=true&column=7" width="100%" />
-</p>
-
----
-
 ### GitHub Stats
 
 <p align="center">
@@ -76,12 +68,8 @@ Currently exploring WebGPU, shaders, and whatever new thing dropped in frontend 
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Shashank7016&theme=tokyonight&hide_border=true&background=0d1117&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa" height="165" />
 </p>
 
----
-
-### Activity Graph
-
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shashank7016&bg_color=0d1117&color=a78bfa&line=a78bfa&point=ffffff&area=true&area_color=a78bfa&hide_border=true" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shashank7016&layout=donut&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9" height="200" />
 </p>
 
 ---
@@ -89,9 +77,9 @@ Currently exploring WebGPU, shaders, and whatever new thing dropped in frontend 
 ### 3D Contribution Graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
-  <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-green-animate.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
+  <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-season-animate.svg" />
 </picture>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
