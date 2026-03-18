@@ -15,6 +15,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y docker.io jq
+
       # 3D contribution skyline
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
@@ -22,7 +27,7 @@ jobs:
           USERNAME: Shashank7016
 
       # Isometric contribution calendar
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GH_PAT }}
           filename: dist/isometric.svg
@@ -34,7 +39,7 @@ jobs:
           config_animations: yes
 
       # Coding habits
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GH_PAT }}
           filename: dist/habits.svg
@@ -52,6 +57,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}
+          git pull --rebase
           git add -A
           git diff --staged --quiet || git commit -m "Update profile animations"
           git push
