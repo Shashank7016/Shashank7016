@@ -74,20 +74,18 @@ Currently exploring WebGPU, shaders, and whatever new thing dropped in frontend 
 
 ---
 
-### Isometric Contributions
-
-<p align="center">
-  <img src="./dist/isometric.svg" width="100%" />
-</p>
-
----
-
-### 3D Contribution Skyline
+### 3D Contributions
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
-  <img alt="3D Contribution Graph" src="./profile-3d-contrib/profile-season-animate.svg" />
+  <img alt="3D Contribution Graph — Animated Season" src="./profile-3d-contrib/profile-season-animate.svg" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-south-season-animate.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg" />
+  <img alt="3D Contribution Graph — Animated Green" src="./profile-3d-contrib/profile-green-animate.svg" />
 </picture>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
