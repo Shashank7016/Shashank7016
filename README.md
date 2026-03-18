@@ -61,6 +61,14 @@ Currently exploring WebGPU, shaders, and whatever new thing dropped in frontend 
 
 ---
 
+### Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Shashank7016&theme=algolia&no-frame=true&no-bg=true&column=7" width="100%" />
+</p>
+
+---
+
 ### GitHub Stats
 
 <p align="center">
@@ -70,13 +78,11 @@ Currently exploring WebGPU, shaders, and whatever new thing dropped in frontend 
 
 ---
 
-### Contribution Snake
+### Activity Graph
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./dist/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./dist/github-snake.svg" />
-  <img alt="Snake eating contributions" src="./dist/github-snake.svg" width="100%" />
-</picture>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shashank7016&bg_color=0d1117&color=a78bfa&line=a78bfa&point=ffffff&area=true&area_color=a78bfa&hide_border=true" width="100%" />
+</p>
 
 ---
 
