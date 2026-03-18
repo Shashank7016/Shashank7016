@@ -2,11 +2,11 @@ name: 3D Contribution Graph
 
 on:
   schedule:
-    - cron: "0 6 * * *"  # Runs daily at 6 AM UTC
-  workflow_dispatch:       # Manual trigger
+    - cron: "0 6 * * *"
+  workflow_dispatch:
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+permissions:
+  contents: write
 
 jobs:
   build:
