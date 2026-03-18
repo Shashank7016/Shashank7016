@@ -74,10 +74,10 @@ Currently exploring WebGPU, shaders, and whatever new thing dropped in frontend 
 
 ---
 
-### Activity Graph
+### Isometric Contributions
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shashank7016&bg_color=0d1117&color=a78bfa&line=a78bfa&point=c9d1d9&area=true&area_color=a78bfa&hide_border=true" width="100%" />
+  <img src="./dist/isometric.svg" width="100%" />
 </p>
 
 ---
