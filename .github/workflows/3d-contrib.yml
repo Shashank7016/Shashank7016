@@ -18,8 +18,9 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update
+          sudo apt-get install -y jq
           sudo apt-get remove -y containerd
-          sudo apt-get install -y docker.io jq
+          sudo apt-get install -y docker.io
 
       # 3D contribution skyline
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
